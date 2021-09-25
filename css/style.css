@@ -11,6 +11,16 @@ body {
   background-size: cover;
 }
 
+.lista-plano li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.lista-plano li + li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
 @media (max-width: 767px) {
   body {
     padding: 0;
